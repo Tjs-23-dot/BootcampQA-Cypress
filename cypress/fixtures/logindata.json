@@ -1,0 +1,13 @@
+{
+  "validUsername": "Admin",
+  "validPassword": "admin123",
+  "invalidUsername": "adaadmin",
+  "invalidPassword": "123Admin",
+  "emptyUsername": "",
+  "emptyPassword": "",
+  "charUsername": "@...",
+  "charPassword": "!.....",
+  "forgotUsername": "Admin"
+}
+
+
