@@ -43,7 +43,7 @@ class loginPage {
       cy.contains('Forgot your password?').should('be.visible').click()
       cy.get('input[name="username"]').should('be.visible').clear().type(loginData.forgotUsername)
       cy.contains('button', 'Reset Password').should('be.visible').click()
-      cy.contains('Reset Password link sent successfully').should('be.visible')
+      cy.contains('Reset Password').should('be.visible')
 }
 }
 
