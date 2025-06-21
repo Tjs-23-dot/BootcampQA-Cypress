@@ -48,7 +48,7 @@ it('TC-006 - Login Button Visibility', () => {
 
 it('TC-007 - Forgot Password', () => {
   loginPage.visit();
-  loginPage.inputUsername(loginData.charUsername);
+  loginPage.inputUsername(loginData.forgotUsername);
   loginPage.verifyforgetpass(); 
 });
 
