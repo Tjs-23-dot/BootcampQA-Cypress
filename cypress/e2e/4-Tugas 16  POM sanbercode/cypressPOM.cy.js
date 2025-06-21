@@ -31,8 +31,6 @@ it('TC-003 - Login Invalid Username  ', () => {
 })
     it('TC-004 - Login Empty Field  ', () => {
         loginPage.visit();
-        loginPage.inputUsername(loginData.emptyUsername);
-        loginPage.inputPassword(loginData.emptyPassword);
         loginPage.login_btn();
         loginPage.verifyfieldkosong();
 })
