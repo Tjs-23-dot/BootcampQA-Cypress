@@ -6,7 +6,7 @@ class loginPage {
 
 }
     inputUsername(username){
-   cy.get('input[name="username"]').clear().type('username').should('have.value','username')
+ cy.get('input[name="username"]').should('be.visible').clear().type(username).should('have.value', username)
 
     }
 
