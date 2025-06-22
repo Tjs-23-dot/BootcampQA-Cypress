@@ -7,7 +7,14 @@
   "emptyPassword": "",
   "charUsername": "@...",
   "charPassword": "!.....",
-  "forgotUsername": "Admin"
+  "forgotUsername": "Admin",
+  "forgotinvaliduser":"Nimda",
+  
+  "EmployeeNamevalid": "manda akhil user",
+  "JobTitle" : "HR Manager",
+  "Location" : "Texas R&D",
+  "EmployeeNameInvalid" : "Jagung Manis"
+
 }
 
 
