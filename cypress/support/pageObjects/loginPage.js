@@ -39,12 +39,7 @@ class loginPage {
     verifybuttonvasibility(){
     cy.url().should('include', '/auth/login')
 }
-    verifyforgetpass(){
-      cy.contains('Forgot your password?').should('be.visible').click()
-      cy.get('input[name="username"]').should('be.visible').clear().type(loginData.forgotUsername)
-      cy.contains('button', 'Reset Password').should('be.visible').click()
-      cy.contains('Reset Password').should('be.visible')
-}
+ 
 }
 
 export default new loginPage()
